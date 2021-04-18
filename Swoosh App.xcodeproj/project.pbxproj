@@ -55,6 +55,7 @@
 		6F4A58DE262C66CB00708ED4 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		6F4A58F4262C96FF00708ED4 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		6F4A58F9262C970F00708ED4 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		6F4A58FE262C9CF800708ED4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 		6F4A589B262C60A000708ED4 = {
 			isa = PBXGroup;
 			children = (
+				6F4A58FE262C9CF800708ED4 /* .gitignore */,
 				6F4A58A6262C60A000708ED4 /* Swoosh App */,
 				6F4A58BD262C60A200708ED4 /* Swoosh AppTests */,
 				6F4A58C8262C60A200708ED4 /* Swoosh AppUITests */,
