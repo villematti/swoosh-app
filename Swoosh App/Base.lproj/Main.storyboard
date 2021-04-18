@@ -113,6 +113,9 @@
                                         <state key="normal" title="Mens">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onMensTapped:" destination="SdD-vp-6QH" eventType="touchUpInside" id="YKK-VE-oAz"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pa-sb-Ilg" customClass="BorderButton" customModule="Swoosh_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="65" width="335" height="50"/>
@@ -124,6 +127,9 @@
                                         <state key="normal" title="Womens">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onWomensTapped:" destination="SdD-vp-6QH" eventType="touchUpInside" id="iSB-Oh-nHa"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAO-8b-Ahf" customClass="BorderButton" customModule="Swoosh_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="130" width="335" height="50"/>
@@ -135,10 +141,13 @@
                                         <state key="normal" title="Co-ed">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onCoedTapped:" destination="SdD-vp-6QH" eventType="touchUpInside" id="tgm-im-Lmc"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwv-B4-kHw" customClass="BorderButton" customModule="Swoosh_App" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwv-B4-kHw" customClass="BorderButton" customModule="Swoosh_App" customModuleProvider="target">
                                 <rect key="frame" x="20" y="678" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.3983857616" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -204,6 +213,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="xJM-RP-FVW"/>
                     <connections>
+                        <outlet property="nextBtn" destination="Iwv-B4-kHw" id="oa3-Vt-D9e"/>
                         <segue destination="TSS-8D-FCy" kind="presentation" identifier="skillVCSeque" modalPresentationStyle="fullScreen" id="CLc-HE-dAY"/>
                     </connections>
                 </viewController>
